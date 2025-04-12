@@ -69,6 +69,14 @@ exports.Themes = {
 		stroke: black;
 		fill: none;
 	    }
+	    text.onwhite {
+		stroke: none;
+		fill: black;
+	    }
+	    text.onblack {
+		stroke: none;
+		fill: white;
+	    }
 	line, path {
 	    stroke: black; 
 	}
@@ -112,6 +120,14 @@ exports.Themes = {
 		stroke: black;
 		fill: none;
 	    }
+	    text.onwhite {
+		stroke: none;
+		fill: black;
+	    }
+	    text.onblack {
+		stroke: none;
+		fill: white;
+	    }
 	line, path {
 	    stroke: black; 
 	}
@@ -152,6 +168,14 @@ exports.Themes = {
 	    .onblack {
 		stroke: white;
 		fill: none;
+	    }
+	    text.onwhite {
+		stroke: none;
+		fill: black;
+	    }
+	    text.onblack {
+		stroke: none;
+		fill: white;
 	    }
 	    .onwhite {
 		stroke: black;

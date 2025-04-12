@@ -392,14 +392,13 @@ exports.shapeMarkers = function(size, markers, positions) {
 	} else {
 	    cls = "wood";
 	    r = step / 3;
-	    ret.push({type:"circle", cx:x, cy:y, r:r, class:cls });
 	    cls = "on" + (positions[k] || "white");
 	    var txt = markers[k];
 	    var s = {
 		"text-anchor":"middle", 
 		"dominant-baseline":"central"
 	    };
-	    ret.push({type:"text", x:x, y:y, txt:txt, style:s});
+	    ret.push({type:"text", x:x, y:y, txt:txt, style:s, class:cls});
 	}
     }
     return ret;
