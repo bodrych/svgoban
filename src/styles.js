@@ -81,7 +81,7 @@ exports.Themes = {
 	    stroke: black; 
 	}
 	text { 
-	    font-family: "Ubuntu Light", sans-serif; 
+	    font-family: monospace; 
 	    font-size: 1.1em; 
 	}
 	`;
@@ -132,7 +132,7 @@ exports.Themes = {
 	    stroke: black; 
 	}
 	text { 
-	    font-family: sans-serif; 
+	    font-family: monospace; 
 	    font-size: 1.1em; 
 	}
 	`;
@@ -185,7 +185,7 @@ exports.Themes = {
 	    stroke: black; 
 	}
 	text { 
-	    font-family: sans-serif; 
+	    font-family: monospace; 
 	    font-size: 1.1em; 
 	}
 	`;
