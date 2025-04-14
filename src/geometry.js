@@ -131,7 +131,7 @@ exports.shapeGrid = function(size) {
     var ret = [];
 
     var s = {
-	"stroke-width":1, 
+	"stroke-width":2, 
 	"shape-rendering":"crispEdges",
 	"vector-effect":"non-scaling-stroke"
     };
@@ -174,7 +174,7 @@ exports.shapeStarPoints = function(size) {
 	starPadding = 3;
 	midStars = 0;
     }
-    r = Math.floor(step / 10) + 0.5;
+    r = step / 10;
     cx = SV_MARGIN + starPadding * step;
     cy = SV_MARGIN + starPadding * step;
     ret.push({type:"circle", cx:cx, cy:cy, r:r});
