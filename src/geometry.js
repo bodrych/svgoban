@@ -174,7 +174,7 @@ exports.shapeStarPoints = function(size) {
 	starPadding = 3;
 	midStars = 0;
     }
-    r = step / 10;
+    r = step / 10 + 0.5; // + 0.5 to match the lines width
     cx = SV_MARGIN + starPadding * step;
     cy = SV_MARGIN + starPadding * step;
     ret.push({type:"circle", cx:cx, cy:cy, r:r});
